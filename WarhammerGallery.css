@@ -1,0 +1,138 @@
+/* This file is for the WarhammerGallery.html stylring. Be very carful when edtiting it. */
+
+
+
+html{
+  background-image: url("https://codehs.com/uploads/6f904f3a4bd4a27ce699acf7a5ecf85a");
+  border: 20px black solid;
+  min-height:100%;
+}
+/*.Spacer {
+    margin-right:8%;
+    margin-left:8%;
+}
+*/
+.Gallery  {
+    border:grey 10px solid;
+    margin:auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width:fit-content;
+    max-height:fit-content;
+    gap:0px;
+}
+.Gallery > div {
+    background-color:white;
+    /*border:lightgrey solid 4px;*/
+    max-width:fit-content;
+    max-height:fit-content;
+    
+}
+.Gallery p {
+    color:black;
+    text-align:center;
+    font-size:20px;
+    border:lightgrey solid 4px;
+    margin:0;
+    /*width: fit-content;
+    word-wrap: break-word
+    */
+    
+}
+.Gallery img {
+    max-width:550px;
+    border:lightgray 5px solid;
+    border-radius:2px;
+    margin:none;
+    
+}
+
+
+#subtitle {
+  color:rgb(170,170,170);
+  text-align:center;
+}
+#subtitleLeftAlign {
+  text-align:left;
+}
+
+.NavBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(210,210,210);
+}
+
+h2{
+    text-align:center;
+    color:white;
+    margin-right:auto;
+    text-shadow: 4px 4px 3px gray;
+    font-size: 50px;
+    border:40px;
+    color:white;
+
+}
+
+/* modifies the nav-item class which is applied to each li tag in each html page's navigation bar. 
+
+This causes the navigation items to line up starting on the left side of the screen
+*/
+.NavItem {
+  float: left;
+}
+
+li {
+    color:rgb(210,210,210);
+}
+
+a{
+    color:rgb(210,210,210)
+}
+
+h1 {
+  font-family: "Megrim", system-ui;
+  font-weight: 12;
+  font-style: normal;
+  text-align:center;
+  color:white;
+  margin-right:auto;
+  text-shadow: 4px 4px 3px gray;
+  font-size: 50px;
+  
+  /*
+   font-family: "Honk", sans-serif, system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+    */
+}
+
+
+/* modifies each a tag (for links) inside of the nav-item class which is applied to each li tag in each html page's navigation bar. 
+
+This provides for a little bit of spacing around each item, removes the underline, and changes the text color
+*/
+.NavItem a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:20px;
+  
+}
+
+/* This makes it so when you hover over a navigation bar item that isn't the active page, it will change the background color of that item. */
+.NavItem a:hover:not(.active) {
+  background-color: rgb(38, 255, 241);
+}
+
+/* this active class is applied to the <a> tag of the current html page. For instance, in index.html, the active class is applied to the <a> tag that links to index.html with the text home.  For mammals.html, the active class is applied to the <a> tag that links to mammals.html with the text mammals.*/
+.active {
+  background-color:red;
+}

@@ -1,0 +1,147 @@
+/* This section is where base tages are modified.*/
+
+html{
+  background-image: url("https://codehs.com/uploads/6f904f3a4bd4a27ce699acf7a5ecf85a");
+  border: 20px black solid;
+  min-height:100%;
+}
+.BlackAndGreyBorder img {
+    border: rgb(180,180,189) solid 7px;
+    border-radius:15px; 
+    width:400px;
+    height:400px;
+    margin:10px 5px;
+}
+
+li  {
+    color:rgb(210,210,210);
+    font-size:25px;
+}
+
+a{
+    color:rgb(210,210,210)
+}
+
+h1 {
+  font-family: "Megrim", system-ui;
+  font-weight: 12;
+  font-style: normal;
+  text-align:center;
+  color:white;
+  margin-right:auto;
+  text-shadow: 4px 4px 3px gray;
+  font-size: 50px;
+  
+  /*
+   font-family: "Honk", sans-serif, system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+    */
+}
+
+.StanderedPharograph{
+    color:white;
+    padding-left:12%;
+    padding-right:12%;
+    height:70%;
+}
+
+.StanderedPharograph img {
+    width:200px;
+    height:200px;
+    margin:auto;
+    display:block;
+    border:5px grey solid;
+    
+}
+
+.StanderedPharograph p {
+    margin:2% 2%
+}
+
+
+.row {
+    
+}
+
+h2{
+    text-align:center;
+    color:white;
+    margin-right:auto;
+    text-shadow: 4px 4px 3px gray;
+    font-size: 50px;
+    border:40px;
+    color:white;
+
+}
+
+
+.PlaneLink{
+    font-family: "sans-seriff", system-ui;
+    font-weight: 1000;
+    font-style: normal;
+    color:rgb(210,210,210);
+}   
+
+/* Tag fonts are declared here*/
+/* #MegrimFont {
+  font-family: "Megrim", system-ui;
+  font-weight: 400;
+  font-style: normal;
+*/
+
+/*Id tags are declared here*/
+
+
+
+#subtitle {
+  color:rgb(170,170,170);
+  text-align:center;
+}
+#subtitleLeftAlign {
+  text-align:left;
+}
+
+.NavBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(210,210,210);
+}
+
+/* modifies the nav-item class which is applied to each li tag in each html page's navigation bar. 
+
+This causes the navigation items to line up starting on the left side of the screen
+*/
+.NavItem {
+  float: left;
+}
+
+/* modifies each a tag (for links) inside of the nav-item class which is applied to each li tag in each html page's navigation bar. 
+
+This provides for a little bit of spacing around each item, removes the underline, and changes the text color
+*/
+.NavItem a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:20px;
+  
+}
+
+/* This makes it so when you hover over a navigation bar item that isn't the active page, it will change the background color of that item. */
+.NavItem a:hover:not(.active) {
+  background-color: rgb(38, 255, 241);
+}
+
+/* this active class is applied to the <a> tag of the current html page. For instance, in index.html, the active class is applied to the <a> tag that links to index.html with the text home.  For mammals.html, the active class is applied to the <a> tag that links to mammals.html with the text mammals.*/
+.active {
+  background-color:red;
+}
