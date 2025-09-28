@@ -30,7 +30,11 @@ h1 {
   color:white;
   margin-right:auto;
   text-shadow: 4px 4px 3px gray;
-  font-size: 50px;
+  font-size: 80px;
+  background: url("https://www.warhammer.com/ur4mtvpiojcu/2kPiRJr80Uvy9LWtLB7Gzn/e9bff89151f78e0ba5ae172023a008ca/PLP-240316-TauRange.jpg?fm=webp&w=1920");
+    background-size: auto;
+  margin: 0;
+  background-size: 20%;
   
   /*
    font-family: "Honk", sans-serif, system-ui;
@@ -60,13 +64,11 @@ h1 {
 }
 
 .StanderedPharograph p {
-    margin:2% 2%
+    margin:2% 2%;
+    font-size:20px;
+
 }
 
-
-.row {
-    
-}
 
 h2{
     text-align:center;
